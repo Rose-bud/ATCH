@@ -562,7 +562,7 @@ if __name__ == "__main__":
             noise_rate_list = [0.1,0.3,0.5]
         else:
             noise_rate_list = [0.01,0.03,0.05]
-        for rand_num in [42]:
+        for rand_num in [123]:
             for rate in noise_rate_list:
                 for bit in bit_list:
                     setup_seed(rand_num)
